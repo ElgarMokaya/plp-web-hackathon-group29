@@ -58,6 +58,7 @@ background-color:black;
 .section4{
     justify-content: center;
     display: flex;
+    flex-wrap: nowrap;
 }
 .testimonials{
     
@@ -207,23 +208,41 @@ textarea{
 
 /*phone*/
 @media screen and (max-width:480px){
-  
-    .navLinks{
+   .header1{
+    background-color: grey;
+    height: 250px;
+    color: white;
+    border-radius: 15px;
+    line-height: 3%;
+   }
+   
+    .nav{
         margin: auto 0;
         overflow: hidden;
         position: relative;
         cursor: pointer;
     }
-    .navLinks #mylinks{
+     #mylinks{
         display: none;
     }
-    .navLinks >a{
+    .nav a{
+        color: white;
         padding: 0;
         line-height:1.2em ;
         font-size:1em ;
         height: 2.8em;
         display: block;
+    } 
+    .nav a:hover{
+        background-color: #1a1a1a;
     }
+    .nav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
     .container{
         justify-content: center;
         display: flex;
