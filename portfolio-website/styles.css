@@ -24,6 +24,7 @@ background-color:black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
    
 }
 
@@ -50,6 +51,7 @@ background-color:black;
 .container{
     justify-content: center;
     display: flex;
+    
     }
     
     .card{
@@ -64,6 +66,7 @@ background-color:black;
         height: 170px;
         margin-bottom: 15px;
         background-size: cover;
+        
     }
     
     .car1{
@@ -162,4 +165,44 @@ textarea{
     margin: auto;
     display: block;
     border-radius: 10px;
+}
+/*tablets*/
+@media screen and (max-width:780px){
+
+
+}
+
+/*phone*/
+@media screen and (max-width:480px){
+  
+    .navLinks{
+        margin: auto 0;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .navLinks #mylinks{
+        display: none;
+    }
+    .navLinks >a{
+        padding: 0;
+        line-height:1.2em ;
+        font-size:1em ;
+        height: 2.8em;
+        display: block;
+    }
+    .container{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

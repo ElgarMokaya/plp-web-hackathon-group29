@@ -8,6 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <!----section1-->
@@ -16,7 +17,8 @@
     <div class="logo">
      <img src="./pictures/logo.jpg"alt=""style=""> 
     </div>
-    <div class="navLinks">
+    <div class="navLinks"id="mylinks">
+      
         <a href="index.html">PAGES</a>
                    <a href="#">OUR MEMBERS</a>
                    <a href="#">GALLERY</a>
@@ -25,8 +27,12 @@
                    <div class="appointment">
                     <button type="submit">APPOINTMENT</button>
                    </div>
+                 
                   
     </div>
+    <a href="javascript:void(0);"class="icon"onclick="toggle()">
+      <i class="fa fa-bars"></i>
+    </a>
 </nav>
        </section> 
        <!----section2-->
@@ -161,6 +167,6 @@
 
           </footer>
         </section>
-        <script src="" async defer></script>
+        <script src="./index.js" async defer></script>
     </body>
 </html>
